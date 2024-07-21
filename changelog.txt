@@ -1,0 +1,222 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.5.0
+Date: xx.xx.xxxx
+  Features:
+    - Added a new type of accumulator: Small accumulator
+    - Added a new type of accumulator: Advanced accumulator
+
+  Bugfixes:
+    - Fixed a bug where the wrong icons where used in the electric network info
+    - Fixed a bug regarding the prerequisites of all wind turbines
+    - Fixed a bug regarding stack sizes
+---------------------------------------------------------------------------------------------------
+Version: 0.4.4
+Date: 10.08.2023
+  Optimizations:
+    - Optimized the recipes and power output for nearly all wind turbines and solar panels
+---------------------------------------------------------------------------------------------------
+Version: 0.4.3
+Date: 29.07.2023
+  Features:
+    - Added the french localization thanks to @Tweepy
+
+  Bugfixes:
+    - Fixed a bug where technology recipes where changed by other mods
+    - Fixed a few typos in the english localization
+---------------------------------------------------------------------------------------------------
+Version: 0.4.2
+Date: 27.04.2023
+  Optimizations:
+    - The changelog is now readable in-game
+---------------------------------------------------------------------------------------------------
+Version: 0.4.1
+Date: 19.03.2023
+  Bugfixes:
+    - Fixed a bug regarding the heated water
+---------------------------------------------------------------------------------------------------
+Version: 0.4.0
+Date: 18.03.2023
+  Features:
+    - Added a new type of solar panel: Smart solar panel
+    - Added custom recipes for Krastorio 2 and Space Exploration
+
+  Bugfixes:
+    - Fixed a bug where the wind turbines had a "power input" option
+
+  Optimizations:
+    - Optimized the water distillation recipe
+    - Optimized the big wind turbine recipe
+
+  Changes:
+    - Changed the modpack icon
+---------------------------------------------------------------------------------------------------
+Version: 0.3.1
+Date: 15.03.2023
+  Features:
+    - Added the russian localization thanks to @dirty.mike
+    - Added new item & technology icons
+
+  Bugfixes:
+    - Fixed missing german locale
+    - Fixed flat solar panel picture shift
+    - Fixed the wave power plant icon zoom
+
+  Optimizations:
+    - Optimized the heated water recipe
+    - Optimized the wave power plants recipe
+
+  Changes:
+    - Updated the info.json file
+    - Removed the production science pack from the big wind turbine technolgy to avoid conflicts with SE
+    - Increased the count of science packs needed for the big wind turbine
+---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 12.03.2023
+  Features:
+    - Added a new building: Wave power plant
+    - Added a new type of wind turbine: Big wind turbine
+    - Added a new type of solar panel: Small twin solar panel
+    - Added a new type of solar panel: Flat solar panel
+    - Added the possibility to use certain modules on the CSP panel
+
+  Changes:
+    - Changed the name of the "CSP solar panel" to "CSP panel"
+    - Changed all wind turbine models
+
+  Balancing:
+    - Balanced all solar panel recipes
+    - Balanced all wind turbine recipes
+
+  Bugfixes:
+    - Fixed a bug with the CSP panel and big solar panel shadow textures
+    - Fixed a bug where the advanced wind turbine wasn't minable
+
+  Optimizations:
+    - Code tidying
+---------------------------------------------------------------------------------------------------
+Version: 0.2.5
+Date: 01.03.2023
+  Changes:
+    - Updated the modpack icon
+---------------------------------------------------------------------------------------------------
+Version: 0.2.4
+Date: 24.02.2023
+  Bugfixes:
+    - Fixed a bug where technology recipes where changed by other mods
+
+  Balancing:
+    - Removed the production science pack from the eco wind turbine technology
+    - Adjusted all technology recipes for wind turbines
+---------------------------------------------------------------------------------------------------
+Version: 0.2.3
+Date: 06.03.2022
+  Balancing:
+    - Increased the power production from the Big solar panel to 650kW
+---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 16.01.2022
+  Changes:
+    - Removed the technology from the "Rusty wind turbine", will be now enabled by default
+
+  Balancing:
+    - Balanced the Rusty wind turbine recipe ingredients & crafting time
+---------------------------------------------------------------------------------------------------
+Version: 0.2.1
+Date: 13.01.2022
+  Features:
+    - Better Energy Production is now compatible with Better Repair Packs
+
+  Bugfixes:
+    - Fixed that two recipes where enabled by default
+---------------------------------------------------------------------------------------------------
+Version: 0.2.0
+Date: 11.01.2022
+  Features:
+    - Added a new type of solar panel: CSP solar panel
+    - Added a new fluid: Heated water
+    - Added a new recipe: Water distillation
+
+  Balancing:
+    - Balanced the technology requirements for the solar panels
+    - Balanced the crafting time for the air filter
+
+  Changes:
+    - Changed solar panel textures
+    - Changed wind turbine textures
+    - Changed technology icon textures
+
+  Bugfixes:
+    - Fixed missing technology name
+---------------------------------------------------------------------------------------------------
+Version: 0.1.7
+Date: 26.10.2021
+  Features:
+    - Better Energy production is again compatible with Krastorio 2
+---------------------------------------------------------------------------------------------------
+Version: 0.1.6
+Date: 06.08.2021
+  Optimizations:
+    - Code tidying and cleanup
+---------------------------------------------------------------------------------------------------
+Version: 0.1.5
+Date: 06.08.2021
+  Changes:
+    - Reworked the advanced solar panel shadow 
+---------------------------------------------------------------------------------------------------
+Version: 0.1.4
+Date: 03.08.2021
+  Features:
+    - Better Energy production is currently not compatible with Krastorio 2
+
+  Bugfixes:
+    - Fixed the "No power" problem with the wind turbines
+---------------------------------------------------------------------------------------------------
+Version: 0.1.3
+Date: 26.07.2021
+  Features:
+    - Added a advanced solar panel
+
+  Changes:
+    - Changed the first advanced solar panel name to big solar panel
+    - Eco wind turbine is now compatible with the upgrade planner
+---------------------------------------------------------------------------------------------------
+Version: 0.1.2
+Date: 24.07.2021
+  Features:
+    - Wind turbines are now compatible with the upgrade planner
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
+Date: 01.07.2021
+  Features:
+    - Added a advanced solar panel
+
+  Changes:
+    - Nerfed the Eco wind turbine pollution absorption from -10 to -8.5
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 29.06.2021
+  Features:
+    - Added a eco wind turbine
+    - Added a air filter
+    - Now compatible with Krastorio 2 and Space Exploration
+
+  Bugfixes:
+    - Fixed a icon bug
+
+---------------------------------------------------------------------------------------------------
+Version: 0.0.2
+Date: 28.06.2021
+  Changes:
+    - Nerfed the Rusty wind turbine power generation from 48kW -> 38kW
+    - Changed the recipes for all wind turbines
+    - Changed the technology requirements for the advanced wind turbine
+
+  Bugfixes:
+    - Fixed the wind turbines icon tint
+    - Fixed a technology name bug
+    - Fixed the wrong technology icon
+---------------------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 27.06.2021
+  Features:
+    - Initial release
