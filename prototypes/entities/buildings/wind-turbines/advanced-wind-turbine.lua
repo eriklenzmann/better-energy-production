@@ -33,7 +33,6 @@ data:extend(
         flags = {"placeable-neutral", "player-creation"},
         fast_replaceable_group = "turbine",
         minable = {hardness = 0.2, mining_time = 1, result = "advanced-wind-turbine"},
-        icon = "__Better-Energy-production__/graphics/icon/advanced-wind-turbine.png",
         max_health = 100,
         place_result = "advanced-wind-turbine",
         corpse = "medium-remnants",

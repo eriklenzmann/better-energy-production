@@ -50,9 +50,7 @@ data:extend(
             width = 130,
             height = 189,
             shift = util.by_pixel(0, -0.343750),
-
         }
-
     }
 }
 )
