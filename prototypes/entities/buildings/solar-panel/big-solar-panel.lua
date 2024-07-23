@@ -6,8 +6,9 @@ data:extend(
         enabled = false,
         ingredients = 
         {
-            {"solar-panel", 2},
-            {"advanced-circuit", 10},
+            {"advanced-solar-panel", 2},
+            {"processing-unit", 10},
+            {"advanced-circuit", 20},
             {"electronic-circuit", 20},
             {"copper-cable", 30}
         },

@@ -105,8 +105,8 @@ data:extend(
             {"pipe", 4},
             {"pipe-to-ground", 2},
             {"copper-cable", 40},
-            {"advanced-circuit", 10},
-            {"electronic-circuit", 20}
+            {"advanced-circuit", 20},
+            {"electronic-circuit", 25}
         },
         energy_required = 35,
         result = "csp-panel"

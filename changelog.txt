@@ -10,6 +10,9 @@ Date: xx.xx.xxxx
     - Fixed a bug regarding the prerequisites of all wind turbines
     - Fixed a bug regarding stack sizes
     - Fixed typos in the german locale file
+
+  Balancing:
+    - Balanced solar panel recipes
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.4
 Date: 10.08.2023

@@ -6,10 +6,11 @@ data:extend(
         enabled = false,
         ingredients = 
         {
-            {"advanced-solar-panel", 2},
+            {"big-solar-panel", 1},
             {"iron-gear-wheel", 25},
-            {"advanced-circuit", 100},
-            {"copper-cable", 25}
+            {"advanced-circuit", 75},
+            {"processing-unit", 25},
+            {"copper-cable", 50}
         },
         energy_required = 50,
         result = "smart-solar-panel"

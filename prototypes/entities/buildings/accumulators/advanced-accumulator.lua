@@ -3,7 +3,7 @@ data:extend(
     {
         type = "recipe",
         name = "advanced-accumulator",
-        enabled = false,
+        enabled = true, --change
         ingredients =
         {
             {"accumulator", 2},
