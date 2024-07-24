@@ -19,8 +19,9 @@ data:extend(
         ingredients = 
         {
             {"wind-turbine", 1},
+            {"electronic-circuit", 30},
             {"advanced-circuit", 15},
-            {"steel-plate", 15}
+            {"steel-plate", 20}
         },
         energy_required = 5,
         result = "advanced-wind-turbine"

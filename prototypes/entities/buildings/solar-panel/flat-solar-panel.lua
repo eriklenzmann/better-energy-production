@@ -40,7 +40,7 @@ data:extend(
         type = "electric",
         usage_priority = "solar",
         },
-        production = "52.5kW",
+        production = "40kW",
         picture = 
         {
 

@@ -15,7 +15,7 @@ data:extend(
     {
         type = "item",
         name = "small-accumulator",
-        icon = "__Better-Energy-production__/graphics/icon/advanced-solar-panel.png",
+        icon = "__base__/graphics/icons/accumulator.png",
         icon_size = 64, icon_mipmaps = 4,
         place_result = "small-accumulator",
         stack_size = "20",
@@ -24,7 +24,7 @@ data:extend(
     {
         type = "accumulator",
         name = "small-accumulator",
-        icon = "__Better-Energy-production__/graphics/icon/advanced-solar-panel.png",
+        icon = "__base__/graphics/icons/accumulator.png",
         icon_size = 64, icon_mipmaps = 4,
         flags = { "placeable-neutral", "player-creation" },
         minable = { hardness = 1, mining_time = 1, result = "small-accumulator" },
@@ -44,14 +44,13 @@ data:extend(
         },
         picture =
         {
-            filename = "__base__/graphics/entity/accumulator/hr-accumulator.png",
+            filename = "__base__/graphics/entity/accumulator/accumulator.png",
             priority = "high",
-            width = 130,
-            height = 189,
-            shift = util.by_pixel(0, -0.343750),
-
+            scale = 0.6,
+            width = 66,
+            height = 94,
+            --shift = util.by_pixel(0, -0.343750),
         }
-
     }
 }
 )

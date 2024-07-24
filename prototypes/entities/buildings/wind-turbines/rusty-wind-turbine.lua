@@ -20,10 +20,10 @@ data:extend({
     enabled = true,
     ingredients =
     {
-      {"iron-plate", 20},
-      {"iron-gear-wheel", 5},
-      {"copper-cable", 15},
-      {"iron-stick", 5}
+      {"iron-plate", 40},
+      {"iron-gear-wheel", 10},
+      {"copper-cable", 25},
+      {"iron-stick", 10}
     },
     result = "rusty-wind-turbine"
   },

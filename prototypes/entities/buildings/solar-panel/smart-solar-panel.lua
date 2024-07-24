@@ -6,7 +6,7 @@ data:extend(
         enabled = false,
         ingredients = 
         {
-            {"big-solar-panel", 1},
+            {"advanced-solar-panel", 2},
             {"iron-gear-wheel", 25},
             {"advanced-circuit", 75},
             {"processing-unit", 25},

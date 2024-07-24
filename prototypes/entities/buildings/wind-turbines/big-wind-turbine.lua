@@ -16,16 +16,17 @@ data:extend({
 	{
     type = "recipe",
     name = "big-wind-turbine",
-    energy_required = 75,
+    energy_required = 60,
     enabled = false,
     ingredients =
     {
       {"electric-engine-unit", 10},
       {"steel-plate", 100},
       {"iron-stick", 50},
-      {"copper-cable", 50},
+      {"copper-cable", 100},
       {"iron-gear-wheel", 50},
-      {"advanced-circuit", 30}
+      {"advanced-circuit", 50},
+      {"processing-unit", 20}
     },
     result = "big-wind-turbine"
   },

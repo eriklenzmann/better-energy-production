@@ -8,9 +8,9 @@ data:extend(
         {
             {"copper-plate", 5},
             {"copper-cable", 10},
-            {"iron-plate", 5}
+            {"iron-plate", 10}
         },
-        energy_required = 2.5,
+        energy_required = 5,
         result = "small-twin-solar-panel"
     },
     {
@@ -40,7 +40,7 @@ data:extend(
         type = "electric",
         usage_priority = "solar",
         },
-        production = "18.5kW",
+        production = "16kW",
         picture = 
         {
 
@@ -51,8 +51,7 @@ data:extend(
                 height = 64,
                 --shift = util.by_pixel(-3, 3),
             }
-
         }
-        }
+    }
 }
 )

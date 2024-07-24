@@ -9,10 +9,10 @@ data:extend(
         enabled = false,
         ingredients = 
         {
-            {"wind-turbine", 1},
+            {"advanced-wind-turbine", 1},
             {"advanced-circuit", 25},
             {"electric-engine-unit", 2},
-            {"electronic-circuit", 10},
+            {"electronic-circuit", 30},
             {"air-filter", 1}
         },
         energy_required = 5,
