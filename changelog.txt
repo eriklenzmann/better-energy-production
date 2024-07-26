@@ -12,7 +12,7 @@ Date: xx.xx.xxxx
     - Fixed typos in the german locale file
 
   Balancing:
-    - Balanced solar panel recipes
+    - Balanced nearly all recipes
 ---------------------------------------------------------------------------------------------------
 Version: 0.4.4
 Date: 10.08.2023
