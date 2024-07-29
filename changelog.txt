@@ -8,6 +8,7 @@ Date: xx.xx.xxxx
   Bugfixes:
     - Fixed a bug where the wrong icons where used in the electric network info
     - Fixed a bug regarding the prerequisites of all wind turbines
+    - Fixed a bug where the big wind turbine and the wave power plant had too much buffer capacity
     - Fixed a bug regarding stack sizes
     - Fixed typos in the german locale file
 

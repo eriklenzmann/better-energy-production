@@ -40,13 +40,13 @@ data:extend(
         --drawing_box = {{-0.5, -3}, {3.2, 0.5}},
         energy_source = 
         {
-            type = "fluid",
-            buffer_capacity = "1MW",
+            type = "electric",
+            buffer_capacity = "20kJ",
             usage_priority = "primary-output",
+            output_flow_limit = "925kW",
             render_no_power_icon = false,
         },
         energy_production = "925kW",
-        energy_usage = "0kW",
         animation = 
         {
             filename = "__Better-Energy-production__/graphics/animation/wave-power-plant.png",

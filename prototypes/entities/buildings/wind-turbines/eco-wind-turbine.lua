@@ -42,16 +42,14 @@ data:extend(
         drawing_box = {{-0.5, -3}, {3.2, 0.5}},
             energy_source =
             {
-            type = "electric",
-            buffer_capacity = "20kJ",
-            usage_priority = "secondary-output",
-            input_flow_limit = "0kW",
-            output_flow_limit = "107kW",
-            render_no_power_icon = false,
-            emissions_per_minute = -5
+                type = "electric",
+                buffer_capacity = "20kJ",
+                usage_priority = "secondary-output",
+                output_flow_limit = "107kW",
+                render_no_power_icon = false,
+                emissions_per_minute = -5
             },
             energy_production = "107kW",
-            energy_usage = "0kW",
             animation =
             {
                 filename = "__Better-Energy-production__/graphics/animation/eco-wind-turbine.png",

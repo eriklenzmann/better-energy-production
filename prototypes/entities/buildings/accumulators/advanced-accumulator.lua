@@ -32,7 +32,7 @@ data:extend(
         max_health = 300,
         corpse = "small-remnants",
         collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
-        selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+        selection_box = {{-1.4, -1.2}, {1.4, 1.8}},
         charge_cooldown = 40,
         discharge_cooldown = 80,
         energy_source = 
@@ -47,9 +47,10 @@ data:extend(
         {
             filename = "__base__/graphics/entity/accumulator/hr-accumulator.png",
             priority = "high",
+            scale = 0.7,
             width = 130,
             height = 189,
-            shift = util.by_pixel(0, -0.343750),
+            --shift = util.by_pixel(0, -0.343750),
         }
     }
 }

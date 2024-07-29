@@ -48,7 +48,8 @@ Currently supported languages:
 
 -English
 -German
--Russian (Thanks to [dirty.mike](https://mods.factorio.com/user/dirty.mike))
+-French
+-Russian
 
 #Note
 

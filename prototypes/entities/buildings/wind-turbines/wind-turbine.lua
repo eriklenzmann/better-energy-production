@@ -41,18 +41,16 @@ data:extend(
         collision_box = {{-0.6, -0.6}, {0.6, 0.6}},
         selection_box = {{-0.8, -0.8}, {0.8, 0.8}},
         drawing_box = {{-0.5, -3}, {3.2, 0.5}},
-            energy_source =
-            {
+        energy_source =
+        {
             type = "electric",
             buffer_capacity = "20kJ",
             usage_priority = "primary-output",
-            input_flow_limit = "0kW",
             output_flow_limit = "65kW",
             render_no_power_icon = false
-            },
-            energy_production = "65kW",
-            energy_usage = "0kW",
-            animation =
+        },
+        energy_production = "65kW",
+        animation =
             {
                 filename = "__Better-Energy-production__/graphics/animation/wind-turbine.png",
                 priority = "high",
@@ -63,7 +61,7 @@ data:extend(
                 shift = {2.15,-1.4},
                 animation_speed = 0.5,
             },
-            continuous_animation = true,
+        continuous_animation = true,
     }
 }
 )

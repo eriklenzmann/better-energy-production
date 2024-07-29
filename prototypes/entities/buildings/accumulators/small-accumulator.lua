@@ -30,8 +30,8 @@ data:extend(
         minable = { hardness = 1, mining_time = 1, result = "small-accumulator" },
         max_health = 100,
         corpse = "small-remnants",
-        collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
-        selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
+        collision_box = {{-0.6, -0.6}, {0.6, 0.6}},
+        selection_box = {{-0.8, -0.7}, {0.8, 0.9}}, --first on decrement by .5 for smaller hitbox
         charge_cooldown = 20,
         discharge_cooldown = 40,
         energy_source = 
@@ -44,12 +44,10 @@ data:extend(
         },
         picture =
         {
-            filename = "__base__/graphics/entity/accumulator/accumulator.png",
+            filename = "__Better-Energy-production__/graphics/entity/accumulator/small-accumulator.png",
             priority = "high",
-            scale = 0.6,
-            width = 66,
-            height = 94,
-            --shift = util.by_pixel(0, -0.343750),
+            width = 50,
+            height = 71,
         }
     }
 }

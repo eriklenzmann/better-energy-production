@@ -47,14 +47,12 @@ data:extend({
     energy_source =
     {
         type = "electric",
-        buffer_capacity = "1.1MW",
+        buffer_capacity = "20kJ",
         usage_priority = "primary-output",
-        input_flow_limit = "0kW",
         output_flow_limit = "1.1MW",
         render_no_power_icon = false
     },
     energy_production = "1.1MW",
-    energy_usage = "0kW",
     animation =
     {
         filename = "__Better-Energy-production__/graphics/animation/big-wind-turbine.png",

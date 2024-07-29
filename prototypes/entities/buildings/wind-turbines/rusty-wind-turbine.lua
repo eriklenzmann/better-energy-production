@@ -45,14 +45,12 @@ data:extend({
     energy_source =
     {
         type = "electric",
-        usage_priority = "primary-output",
-        input_flow_limit = "0kW",
-        output_flow_limit = "36kW",
         buffer_capacity = "20kJ",
+        usage_priority = "primary-output",
+        output_flow_limit = "36kW",
         render_no_power_icon = false
     },
     energy_production = "36kW",
-    energy_usage = "0kW",
     animation =
     {
         filename = "__Better-Energy-production__/graphics/animation/rusty-wind-turbine.png",
