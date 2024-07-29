@@ -26,7 +26,8 @@ data:extend(
         type = "accumulator",
         name = "advanced-accumulator",
         icon = "__Better-Energy-production__/graphics/icon/advanced-solar-panel.png",
-        icon_size = 64, icon_mipmaps = 4,
+        icon_size = 64,
+        icon_mipmaps = 4,
         flags = { "placeable-neutral", "player-creation" },
         minable = { hardness = 1, mining_time = 2.5, result = "advanced-accumulator" },
         max_health = 300,
@@ -40,8 +41,8 @@ data:extend(
             type = "electric",
             usage_priority = "tertiary",
             buffer_capacity = "11.5MJ",
-            input_flow_limit = "700kW",
-            output_flow_limit = "700kW",
+            input_flow_limit = "600kW",
+            output_flow_limit = "600kW",
         },
         picture =
         {
