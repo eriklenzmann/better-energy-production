@@ -87,11 +87,13 @@ data:extend(
     {
         type = "item",
         name = "advanced-accumulator",
-        icon = "__Better-Energy-production__/graphics/icon/advanced-solar-panel.png",
-        icon_size = 64, icon_mipmaps = 4,
+        icon = "__base__/graphics/icons/accumulator.png",
+        icon_size = 64,
+        icon_mipmaps = 4,
         place_result = "advanced-accumulator",
         stack_size = "20",
-        subgroup = "energy",
+        subgroup = "electric",
+        order = "aj"
     },
     {
         type = "accumulator",

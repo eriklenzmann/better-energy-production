@@ -20,8 +20,9 @@ data:extend(
         icon_size = 32,
         place_result = "flat-solar-panel",
         stack_size = 50,
-        subgroup = "energy",
-        order = "d[small-twin-solar-panel]-a[flat-solar-panel]"
+        subgroup = "electric",
+        order = "ab"
+        --order = "d[small-twin-solar-panel]-a[flat-solar-panel]"
     },
     {
         type = "solar-panel",

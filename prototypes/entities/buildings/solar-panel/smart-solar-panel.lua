@@ -22,8 +22,9 @@ data:extend(
         icon_size = 32,
         place_result = "smart-solar-panel",
         stack_size = 25,
-        subgroup = "energy",
-        order = "d[steam-engine]-b[small-twin-solar-panel]-c[solar-panel]-d[advanced-solar-panel]-e[smart-solar-panel]-f[csp-panel]"
+        subgroup = "electric",
+        order = "ag"
+        --order = "d[steam-engine]-b[small-twin-solar-panel]-c[solar-panel]-d[advanced-solar-panel]-e[smart-solar-panel]-f[csp-panel]"
     },
     {
         type = "solar-panel",

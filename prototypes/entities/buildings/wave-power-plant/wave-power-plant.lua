@@ -21,7 +21,7 @@ data:extend(
         icon_size = 32,
         place_result = "wave-power-plant",
         stack_size = 10,
-        subgroup = "b-e-p",
+        subgroup = "turbine",
         order = "al"
     },
     {

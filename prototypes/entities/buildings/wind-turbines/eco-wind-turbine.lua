@@ -25,7 +25,7 @@ data:extend(
         icon_size = 32,
         place_result = "eco-wind-turbine",
         stack_size = 100,
-        subgroup = "b-e-p",
+        subgroup = "turbine",
         order = "ai"
     },
     {

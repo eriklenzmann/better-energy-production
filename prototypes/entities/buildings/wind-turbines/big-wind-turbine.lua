@@ -7,7 +7,7 @@ data:extend({
   icon = "__Better-Energy-production__/graphics/icon/big-wind-turbine.png",
   icon_size = 32,
 	flags = {},
-  subgroup = "b-e-p",		
+  subgroup = "turbine",		
   order = "aj",
 	place_result = "big-wind-turbine",
 	stack_size = 20,

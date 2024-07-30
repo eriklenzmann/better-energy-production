@@ -119,8 +119,9 @@ data:extend(
         icon_mipmaps = 4,
         place_result = "csp-panel",
         stack_size = 10,
-        subgroup = "energy",
-        order = "d[steam-engine]-b[small-twin-solar-panel]-c[solar-panel]-d[advanced-solar-panel]-e[big-solar-panel]-f[csp-panel]"
+        subgroup = "electric",
+        order = "af"
+        --order = "d[steam-engine]-b[small-twin-solar-panel]-c[solar-panel]-d[advanced-solar-panel]-e[big-solar-panel]-f[csp-panel]"
     },
     {
         type = "assembling-machine",

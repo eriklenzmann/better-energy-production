@@ -21,8 +21,9 @@ data:extend(
         icon_size = 64, icon_mipmaps = 4,
         place_result = "advanced-solar-panel",
         stack_size = 50,
-        subgroup = "energy",
-        order = "d[steam-engine]-b[small-twin-solar-panel]-c[solar-panel]-d[advanced-solar-panel]-e[big-solar-panel]-f[csp-panel]"
+        subgroup = "electric",
+        order = "ad"
+        --order = "d[steam-engine]-b[small-twin-solar-panel]-c[solar-panel]-d[advanced-solar-panel]-e[big-solar-panel]-f[csp-panel]"
     },
     {
         type = "solar-panel",

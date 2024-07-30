@@ -19,7 +19,8 @@ data:extend(
         icon_size = 64, icon_mipmaps = 4,
         place_result = "small-accumulator",
         stack_size = "20",
-        subgroup = "energy",
+        subgroup = "electric",
+        order = "ah"
     },
     {
         type = "accumulator",

@@ -7,7 +7,7 @@ data:extend({
   icon = "__Better-Energy-production__/graphics/icon/rusty-wind-turbine.png",
   icon_size = 32,
 	flags = {},
-  subgroup = "b-e-p",		
+  subgroup = "turbine",		
   order = "ab",
 	place_result = "rusty-wind-turbine",
 	stack_size = 20,

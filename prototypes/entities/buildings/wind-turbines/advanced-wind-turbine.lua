@@ -9,7 +9,7 @@ data:extend(
         icon_size = 32,
         stack_size = 100,
         place_result = "advanced-wind-turbine",
-        subgroup = "b-e-p",
+        subgroup = "turbine",
         order = "ag"
     },
     {
