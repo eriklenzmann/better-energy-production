@@ -46,7 +46,7 @@ function advanced_accumulator_charge()
         }
       }
     }
-end
+    end
 
 function advanced_accumulator_discharge()
     return
@@ -67,7 +67,7 @@ function advanced_accumulator_discharge()
         }
       }
     }
-end
+    end
   
 data:extend(
 {
