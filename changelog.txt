@@ -4,13 +4,14 @@ Date: xx.xx.xxxx
   Features:
     - Added a new type of accumulator: Small accumulator
     - Added a new type of accumulator: Advanced accumulator
+    - Added mod settings to adjust the power production of the mod's entities
 
   Bugfixes:
-    - Fixed a bug where the wrong icons where used in the electric network info
-    - Fixed a bug regarding the prerequisites of all wind turbines
-    - Fixed a bug where the big wind turbine and the wave power plant had too much buffer capacity
-    - Fixed a bug regarding stack sizes
-    - Fixed typos in the german locale file
+    - Fixed an issue where incorrect icons were displayed in the electric network info
+    - Fixed a bug concerning the prerequisites for all wind turbines
+    - Fixed an issue where the Big Wind Turbine and the Wave Power Plant had excessive buffer capacity
+    - Fixed a bug related to stack sizes
+    - Fixed typos in the German locale file
 
   Balancing:
     - Balanced nearly all recipes
