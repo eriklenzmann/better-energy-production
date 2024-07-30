@@ -45,11 +45,11 @@ data:extend(
                 type = "electric",
                 buffer_capacity = "20kJ",
                 usage_priority = "secondary-output",
-                output_flow_limit = "107kW",
+                output_flow_limit = settings.startup["eco-wind-turbine-production"].value .. "kW",
                 render_no_power_icon = false,
                 emissions_per_minute = -5
             },
-            energy_production = "107kW",
+            energy_production = settings.startup["eco-wind-turbine-production"].value .. "kW",
             animation =
             {
                 filename = "__Better-Energy-production__/graphics/animation/eco-wind-turbine.png",

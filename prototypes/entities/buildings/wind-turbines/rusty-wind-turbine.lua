@@ -47,10 +47,10 @@ data:extend({
         type = "electric",
         buffer_capacity = "20kJ",
         usage_priority = "primary-output",
-        output_flow_limit = "36kW",
+        output_flow_limit = settings.startup["rusty-wind-turbine-production"].value .. "kW",
         render_no_power_icon = false
     },
-    energy_production = "36kW",
+    energy_production = settings.startup["rusty-wind-turbine-production"].value .. "kW",
     animation =
     {
         filename = "__Better-Energy-production__/graphics/animation/rusty-wind-turbine.png",

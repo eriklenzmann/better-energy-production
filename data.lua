@@ -1,5 +1,3 @@
-require("prototypes.init")
-
 data:extend{
     {
        name = "ssp-animation",
@@ -54,8 +52,45 @@ data:extend{
 },
 }
 
-
 se_procedural_tech_exclusions = se_procedural_tech_exclusions or {}
 table.insert(se_procedural_tech_exclusions, "wind-turbines")
 table.insert(se_procedural_tech_exclusions, "solar-panels")
 --table.insert(se_procedural_tech_exclusions, "turbine")
+
+
+
+--Wind turbines--
+require("prototypes.entities.buildings.wind-turbines.rusty-wind-turbine")
+require("prototypes.entities.buildings.wind-turbines.wind-turbine")
+require("prototypes.entities.buildings.wind-turbines.advanced-wind-turbine")
+require("prototypes.entities.buildings.wind-turbines.eco-wind-turbine")
+require("prototypes.entities.buildings.wind-turbines.big-wind-turbine")
+
+--Solar panel--
+require("prototypes.entities.buildings.solar-panel.flat-solar-panel")
+require("prototypes.entities.buildings.solar-panel.small-twin-solar-panel")
+require("prototypes.entities.buildings.solar-panel.advanced-solar-panel")
+require("prototypes.entities.buildings.solar-panel.big-solar-panel")
+require("prototypes.entities.buildings.solar-panel.csp-panel")
+require("prototypes.entities.buildings.solar-panel.smart-solar-panel")
+
+--Wave power plant--
+require("prototypes.entities.buildings.wave-power-plant.wave-power-plant")
+
+--Accumulators--
+require("prototypes.entities.buildings.accumulators.small-accumulator")
+require("prototypes.entities.buildings.accumulators.advanced-accumulator")
+
+--Fluids--
+require("prototypes.fluids.heated-water")
+require("prototypes.fluids.fluid-recipes")
+
+--Items--
+require("prototypes.items.air-filter")
+
+--Other--
+require("prototypes.other.changes")
+require("prototypes.other.recipe-categories")
+require("prototypes.technologies.wind-turbines")
+require("prototypes.technologies.solar-panels")
+require("prototypes.technologies.water")

@@ -49,10 +49,10 @@ data:extend({
         type = "electric",
         buffer_capacity = "20kJ",
         usage_priority = "primary-output",
-        output_flow_limit = "1.1MW",
+        output_flow_limit = settings.startup["big-wind-turbine-production"].value .. "kW",
         render_no_power_icon = false
     },
-    energy_production = "1.1MW",
+    energy_production = settings.startup["big-wind-turbine-production"].value .. "kW",
     animation =
     {
         filename = "__Better-Energy-production__/graphics/animation/big-wind-turbine.png",
