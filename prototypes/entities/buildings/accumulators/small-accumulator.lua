@@ -1,3 +1,29 @@
+function small_accumulator_picture(tint, repeat_count)
+    return
+    {
+      layers =
+      {
+        {
+            filename = "__Better-Energy-production__/graphics/entity/accumulator/small-accumulator.png",
+            priority = "high",
+            width = 50,
+            height = 71,
+        },
+        -- {
+        --     filename = "__base__/graphics/entity/accumulator/hr-accumulator-shadow.png",
+        --     priority = "high",
+        --     scale = 0.7,
+        --     width = 234,
+        --     height = 106,
+        --     repeat_count = repeat_count,
+        --     shift = util.by_pixel(29, 6),
+        --     draw_as_shadow = true,
+        -- }
+      }
+    }
+  end
+
+
 data:extend(
 {
     {
