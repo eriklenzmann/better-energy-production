@@ -50,7 +50,7 @@ data:extend({
         usage_priority = "primary-output",
         input_flow_limit = "0kW",
         output_flow_limit = "36kW",
-        buffer_capacity = "20kJ",
+        buffer_capacity = "36kJ",
         render_no_power_icon = false
     },
     energy_production = "36kW",

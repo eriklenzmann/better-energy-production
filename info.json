@@ -1,11 +1,12 @@
 {
     "name": "Better-Energy-production",
-    "version": "0.5.3",
+    "version": "0.6.0",
     "title": "Better Energy Production",
     "author": "emirate.",
     "factorio_version": "2.0",
     "dependencies": [
         "base >= 1.1.35",
+        "? Better-Oil-Production",
         "? Better-Repair-Packs",
         "? Better-Build-Sounds",
         "? space-exploration",
