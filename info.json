@@ -1,14 +1,11 @@
 {
     "name": "Better-Energy-production",
-    "version": "0.5.3",
+    "version": "0.6.0",
     "title": "Better Energy Production",
     "author": "emirate.",
     "factorio_version": "2.0",
     "dependencies": [
-        "base >= 1.1.35",
-        "? Better-Repair-Packs",
-        "? Better-Build-Sounds",
-        "? space-exploration",
+        "base >= 2.0.60",
         "? Krastorio2"
     ],
     "description": "Better Energy Production introduces various buildings and items to the game. Explore new ways of creating sustainable energy and keeping you world as clean as possible. Start right at the beginning of your world with three options of creating pollution free and clean power. Later research more technologies to expand your possibilities of getting clean power through a variety of wind turbines, solar panels and more!"
