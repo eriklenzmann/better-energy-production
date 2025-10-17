@@ -107,19 +107,19 @@ data:extend(
         selection_box = {{-1.5, -1.5}, {1.5, 1.5}},
         drawing_box = {{-1.6, -1.6}, {1.6, 1.6}},
         fixed_recipe = "heated-water",
-        animation = --bruh
-        {
-          layers = 
-          {
-              {
-                  filename = "__Better-Energy-production__/graphics/entity/csp-panel/csp-panel.png",
-                  priority = "high",
-                  width = 116,
-                  height = 112,
-                  shift = util.by_pixel(-3, 3),
-                  scale = 0.9
-              }
-          }
+        graphics_set = {
+            animation = {
+                layers = {
+                    {
+                        filename = "__Better-Energy-production__/graphics/entity/csp-panel/csp-panel.png",
+                        priority = "high",
+                        width = 116,
+                        height = 112,
+                        shift = util.by_pixel(-3, 3),
+                        scale = 0.9
+                    }
+                }
+            }
         },
         energy_source = {
           type = "electric",
@@ -136,14 +136,14 @@ data:extend(
                 pipe_picture = pipetoground(),
                 --pipe_covers = pipecoverspictures(),   [OWN]
                 volume = 5000, -- base_area 50 * height 1 * 100
-                pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = {1, -1.5} } }
+                pipe_connections = { { flow_direction = "input", direction = defines.direction.north, position = {1, -0.8} } }
             },
             {
                 production_type = "output",
                 pipe_picture = pipetoground(),
                 --pipe_covers = pipecoverspictures(),   [OWN]
                 volume = 5000, -- base_area 50 * height 1 * 100
-                pipe_connections = { { flow_direction = "output", direction = defines.direction.east, position = {1.5, 1} } },
+                pipe_connections = { { flow_direction = "output", direction = defines.direction.east, position = {0.575, 1} } },
             },
             --off_when_no_fluid_recipe = false   nah
         },
