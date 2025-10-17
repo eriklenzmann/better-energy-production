@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.6.2
+Date: 18.10.2025
+  Bugfixes:
+    - Fixed a bug where the CSP panel was invinsible
+    - Fixed a bug where the connected pipes to a CSP panel would have a visual gap
+---------------------------------------------------------------------------------------------------
 Version: 0.6.1
 Date: 16.08.2025
   Bugfixes:
@@ -8,7 +14,7 @@ Version: 0.6.0
 Date: 14.08.2025
   Features:
     - Added a optional dynamic wind speed system for wind turbines, providing a more realistic gameplay experience
-    - Wind speed changes every 10 minutes, affecting each turbine's power output
+    - Wind speed changes every 10 minutes, affecting each turbines power output
     - Power output fluctuates between 75–100% of base output
     - Higher probability: 70% for 93–100%, 20% for 85–92%, 10% for 75–84%
     - Added a mod setting to toggle dynamic wind speed on/off (default off)
