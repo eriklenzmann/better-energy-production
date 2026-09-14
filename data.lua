@@ -10,7 +10,7 @@ data:extend{
        height = 350,
        frame_count = 64,
        line_length = 8,
-       animation_speed = 0.3,
+       animation_speed = 0.05,
    },
    {
     type = "solar-panel",
