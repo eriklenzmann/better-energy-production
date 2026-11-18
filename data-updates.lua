@@ -6,7 +6,7 @@ if mods["space-age"] ~= nil then
   data.raw["electric-energy-interface"]["advanced-wind-turbine"].surface_conditions = {{ property = "pressure", min = 1 }}
   data.raw["electric-energy-interface"]["eco-wind-turbine"].surface_conditions = {{ property = "pressure", min = 1 }}
   data.raw["electric-energy-interface"]["big-wind-turbine"].surface_conditions = {{ property = "pressure", min = 1 }}
-  data.raw["electric-energy-interface"]["wave-power-plant"].collision_mask = {layers = {ground_tile=true, train=true, car=true, is_object=true, lava_tile=true}}
+  data.raw["electric-energy-interface"]["wave-power-plant"].collision_mask = {layers = {ground_tile=true, train=true, car=true, is_object=true, lava_tile=true, kr_wind_turbine=true}}
 end
 
 if mods["Krastorio2"] and mods["space-exploration"] then
@@ -159,3 +159,8 @@ if mods["space-exploration"] then
 end
 
 --same for technology
+
+-- Krastorio 2 Advanced Solar Panel buff
+if mods["Krastorio2"] and data.raw["solar-panel"] and data.raw["solar-panel"]["kr-advanced-solar-panel"] then
+  data.raw["solar-panel"]["kr-advanced-solar-panel"].production = "500kW"
+end
